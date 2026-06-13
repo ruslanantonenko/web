@@ -317,28 +317,14 @@ filterButtons.forEach(btn => {
    6. Dynamic Project Details Modal
    ========================================================== */
 const projectData = [
-  {
-
-  title: {
-    en: "The module",
-    uk: "Модуль"
+ {
+    title: "The module",
+    category: "ARCHITECTURE",
+    phase: "Concept Study",
+    year: "2024",
+    image: "assets/architecture2.png",
+    description: "Situated at the water's edge, this structure acts as an interactive threshold between raw woodland and absolute shelter. Its flat raw concrete slab ceiling floats over minimalist structural glass facades, framing reflections of the lake while capturing shifting woodland shadows throughout the day. Built virtually using local raw oak accents, structural slate, and low-hydration concrete castings."
   },
-  category: {
-    en: "ARCHITECTURE",
-    uk: "АРХІТЕКТУРА"
-  },
-  phase: {
-    en: "Concept Study",
-    uk: "Концептуальне дослідження"
-  },
-  year: "2024",
-  image: "assets/architecture2.png",
-  description: {
-    en: "Situated at the water's edge, this structure acts as an interactive threshold between raw woodland and absolute shelter.",
-    uk: "Розташована біля води, ця структура функціонує як інтерактивний поріг між диким лісовим середовищем і захищеним укриттям."
-  }
-
-},
   {
     title: "No. 07 Organic Lamp",
     category: "OBJECT DESIGN",
