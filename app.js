@@ -318,26 +318,26 @@ filterButtons.forEach(btn => {
    ========================================================== */
 const projectData = [
   {
-    title: "The Forest Pavilion",
+    title: "The module",
     category: "ARCHITECTURE",
     phase: "Concept Study",
-    year: "2025",
-    image: "assets/architecture.png",
+    year: "2024",
+    image: "assets/architecture2.png",
     description: "Situated at the water's edge, this structure acts as an interactive threshold between raw woodland and absolute shelter. Its flat raw concrete slab ceiling floats over minimalist structural glass facades, framing reflections of the lake while capturing shifting woodland shadows throughout the day. Built virtually using local raw oak accents, structural slate, and low-hydration concrete castings."
   },
   {
-    title: "No. 07 Lounge Chair",
+    title: "No. 07 Lounge Lamp",
     category: "OBJECT DESIGN",
     phase: "Prototype No. 01",
-    year: "2026",
+    year: "2025",
     image: "assets/object.png",
     description: "A study in organic sculptural curves and raw joints. Crafted entirely from select-grade oak wood, the chair combines robust joinery with a fluid, human-centric form. The profiles transition smoothly from heavy structural feet to floating, paper-thin curves. Designed with an emphasis on tactile grain texture, hand-finished with a simple oil wax coating."
   },
   {
-    title: "Raw Brutalism",
+    title: "Raw Nature Brutalism",
     category: "PHOTOGRAPHY",
     phase: "Fine Art Series",
-    year: "2024",
+    year: "2026",
     image: "assets/photography.png",
     description: "Captured on a medium-format camera using black-and-white film, this photography series studies the geometric shadow play cast across modular concrete archways. Clean geometric shadows slice through structures, transforming raw concrete slabs into high-contrast canvases of pure light. The grain of the film accentuates the textures of the formwork."
   }
