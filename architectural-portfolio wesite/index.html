@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R. Antonenko — Architectural Concepts, Object Design &amp; Photography</title>
+  <meta name="description" content="Portfolio of R. Antonenko. Discover architectural concepts, custom object designs, and fine art photography exploring geometry, texture, and light.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-light">
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <span class="logo-title">R. ANTONENKO</span>
+        <span class="logo-subtitle" data-i18n="logo-subtitle">BLEND PRACTICE</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <a href="#about" class="nav-link" data-i18n="nav-about">About</a>
+        <a href="#works" class="nav-link" data-i18n="nav-works">Works</a>
+        <a href="#contact" class="nav-link" data-i18n="nav-contact">Contact</a>
+      </nav>
+
+      <!-- Right Controls -->
+      <div class="header-controls">
+        <!-- Language Toggle -->
+        <button id="lang-toggle" aria-label="Switch language" class="control-btn lang-btn">
+          <span id="lang-label">УК</span>
+        </button>
+
+        <button id="theme-toggle" aria-label="Toggle Theme" class="control-btn">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+        <button id="mobile-menu-btn" aria-label="Open Mobile Menu" class="control-btn">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <nav class="mobile-nav">
+      <a href="#about" class="mobile-link" data-i18n="nav-about">About</a>
+      <a href="#works" class="mobile-link" data-i18n="nav-works">Works</a>
+      <a href="#contact" class="mobile-link" data-i18n="nav-contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg">
+      <img id="hero-img" src="assets/architecture.png" alt="Modern Architecture Concept Pavilion">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-meta scroll-reveal" data-i18n="hero-meta">Concept — Object — Light</div>
+      <h1 class="hero-title scroll-reveal" data-i18n-html="hero-title">
+        Form shaped by <span class="italic">geometry</span>,<br>
+        defined by <span class="italic">shadows</span>.
+      </h1>
+      <div class="hero-footer scroll-reveal">
+        <p class="hero-desc" data-i18n="hero-desc">Exploring the intersection of architectural spaces, sculptural furniture design, and fine art photography.</p>
+        <a href="#works" class="scroll-indicator">
+          <span class="scroll-text" data-i18n="hero-cta">View Selected Works</span>
+          <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <polyline points="19 12 12 19 5 12" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section section-padding">
+    <div class="section-container">
+      <div class="grid-2">
+        <div class="col-left scroll-reveal">
+          <span class="section-meta" data-i18n="about-meta">THE PRACTICE</span>
+          <h2 class="section-title" data-i18n="about-title">A singular search for spatial balance.</h2>
+        </div>
+        <div class="col-right scroll-reveal delay-1">
+          <p class="about-lead" data-i18n="about-lead">I am a designer working across the scales of structure, touch, and visual memory. My practice combines architectural concept modeling, custom object fabrication, and medium-format photography.</p>
+          <div class="about-details">
+            <div class="detail-block">
+              <h3 data-i18n="about-arch-title">Architectural Concepts</h3>
+              <p data-i18n="about-arch-desc">Developing spatial narratives that prioritize raw, local materials, connection with the natural landscape, and honest structural expression.</p>
+            </div>
+            <div class="detail-block">
+              <h3 data-i18n="about-obj-title">Object Design</h3>
+              <p data-i18n="about-obj-desc">Designing tactile furniture pieces and custom functional objects that emphasize raw joints, sculptural profiles, and grain textures.</p>
+            </div>
+            <div class="detail-block">
+              <h3 data-i18n="about-photo-title">Photography</h3>
+              <p data-i18n="about-photo-desc">Documenting structures and spaces in high-contrast analog formats, observing how shifting sunrays sculpt architectural forms over time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works Section -->
+  <section id="works" class="works-section section-padding">
+    <div class="section-container">
+      <div class="works-header">
+        <div class="scroll-reveal">
+          <span class="section-meta" data-i18n="works-meta">SELECTED WORKS</span>
+          <h2 class="section-title" data-i18n="works-title">A curated index of projects</h2>
+        </div>
+
+        <!-- Category Filter -->
+        <div class="gallery-filters scroll-reveal delay-1">
+          <button class="filter-btn active" data-filter="all" data-i18n="filter-all">All</button>
+          <button class="filter-btn" data-filter="architecture" data-i18n="filter-arch">Architecture</button>
+          <button class="filter-btn" data-filter="objects" data-i18n="filter-obj">Object Design</button>
+          <button class="filter-btn" data-filter="photography" data-i18n="filter-photo">Photography</button>
+        </div>
+      </div>
+
+      <!-- Works Grid -->
+      <div class="works-grid scroll-reveal delay-2">
+        <!-- Project 1 -->
+        <div class="project-card" data-category="architecture" data-index="0">
+          <div class="project-img-wrapper">
+            <img src="assets/architecture.png" alt="Modern modernist lakeside villa pavilion render" loading="lazy">
+          </div>
+          <div class="project-info">
+            <span class="project-category" data-i18n="filter-arch">ARCHITECTURE</span>
+            <h3 class="project-title" data-i18n="proj1-title">F4H</h3>
+            <div class="project-meta">
+              <span data-i18n="proj1-phase">Concept</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="objects" data-index="1">
+          <div class="project-img-wrapper">
+            <img src="assets/object.png" alt="Sculpted oak lounge chair studio shot" loading="lazy">
+          </div>
+          <div class="project-info">
+            <span class="project-category" data-i18n="filter-obj">OBJECT DESIGN</span>
+            <h3 class="project-title" data-i18n="proj2-title">No. 07 Lounge Chair</h3>
+            <div class="project-meta">
+              <span data-i18n="proj2-phase">Prototype</span>
+              <span>2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="photography" data-index="2">
+          <div class="project-img-wrapper">
+            <img src="assets/photography.png" alt="High contrast black and white abstract concrete architecture arches" loading="lazy">
+          </div>
+          <div class="project-info">
+            <span class="project-category" data-i18n="filter-photo">PHOTOGRAPHY</span>
+            <h3 class="project-title" data-i18n="proj3-title">Raw Brutalism</h3>
+            <div class="project-meta">
+              <span data-i18n="proj3-phase">Fine Art</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section-padding">
+    <div class="section-container">
+      <div class="grid-2">
+        <div class="col-left scroll-reveal">
+          <span class="section-meta" data-i18n="contact-meta">COLLABORATION</span>
+          <h2 class="section-title" data-i18n-html="contact-title">Let's shape<br>something together.</h2>
+          <div class="contact-methods">
+            <div class="method-item">
+              <span class="method-label" data-i18n="contact-inquiry">General Inquiry</span>
+              <a href="mailto:studio@antonenko.com" class="method-link">r.anotonenko@hotmail.com</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-right scroll-reveal delay-1">
+          <form class="contact-form" id="portfolio-contact-form" onsubmit="event.preventDefault(); alert(translations[currentLang]['form-success']); this.reset();">
+            <div class="form-group">
+              <input type="text" id="form-name" required placeholder=" ">
+              <label for="form-name" data-i18n="form-name">Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="form-email" required placeholder=" ">
+              <label for="form-email" data-i18n="form-email">Email Address</label>
+            </div>
+            <div class="form-group">
+              <select id="form-interest" required>
+                <option value="" disabled selected hidden data-i18n="form-scope">Project Scope</option>
+                <option value="architectural" data-i18n="form-opt1">Architectural Concept Design</option>
+                <option value="object" data-i18n="form-opt2">Custom Object Commission</option>
+                <option value="photography" data-i18n="form-opt3">Editorial / Photography Assignment</option>
+                <option value="other" data-i18n="form-opt4">General Collaboration</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea id="form-message" required placeholder=" " rows="4"></textarea>
+              <label for="form-message" data-i18n="form-message">Describe your concept</label>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span data-i18n="form-send">Send Message</span>
+              <svg class="submit-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Detail Modal -->
+  <div class="project-modal" id="project-modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-close-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close Project">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <div class="modal-scroll-area">
+        <div class="modal-body-grid">
+          <div class="modal-media">
+            <img id="modal-project-img" src="" alt="Project Image">
+          </div>
+          <div class="modal-details">
+            <div class="modal-header-info">
+              <span id="modal-project-category" class="modal-category">CATEGORY</span>
+              <h2 id="modal-project-title" class="modal-title font-serif">Project Title</h2>
+              <div class="modal-metadata-row">
+                <div class="meta-item"><span class="meta-lbl" data-i18n="modal-phase">Phase</span><span id="modal-project-phase" class="meta-val">Concept</span></div>
+                <div class="meta-item"><span class="meta-lbl" data-i18n="modal-year">Year</span><span id="modal-project-year" class="meta-val">2025</span></div>
+              </div>
+            </div>
+            <div class="modal-description">
+              <p id="modal-project-desc">Project description text goes here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p class="copyright" data-i18n="footer-copy">&copy; 2026 R. Antonenko. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#" class="footer-link">Instagram</a>
+        <a href="#" class="footer-link">LinkedIn</a>
+        <a href="#" class="footer-link" data-i18n="footer-journal">Journal</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
