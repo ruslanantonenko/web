@@ -13,7 +13,7 @@ const translations = {
     'hero-cta':          'View Selected Works',
     'about-meta':        'THE PRACTICE',
     'about-title':       'A singular search for spatial balance.',
-    'about-lead':        'I11 am a designer working across the scales of structure, touch, and visual memory. My practice combines architectural concept modeling, custom object fabrication, and medium-format photography.',
+    'about-lead':        'I am a designer working across the scales of structure, touch, and visual memory. My practice combines architectural concept modeling, custom object fabrication, and medium-format photography.',
     'about-arch-title':  'Architectural Concepts',
     'about-arch-desc':   'Developing spatial narratives that prioritize raw, local materials, connection with the natural landscape, and honest structural expression.',
     'about-obj-title':   'Object Design',
